@@ -582,6 +582,12 @@ b {
   position: absolute;
   right: 10px;
   top: 10px;
+  cursor: pointer;
+}
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 /* Стили для portfolio.html */
